@@ -1,3 +1,8 @@
-#HomePageList {
+ul {
 	list-style-type: none;
+}
+
+ul li a {
+	color: #1e1075;
+	font-weight: bold;
 }
