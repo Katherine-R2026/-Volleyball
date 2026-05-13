@@ -1,9 +1,12 @@
-ul {
-	list-style-type: none;
+#HomePage {
+  backround-image: url("VolleyballerLogo.png");
+  backround-color: rgba(255,255,255,0.5);
+  backround-size: 100% auto;
+  background-blend-mode: lighten;
 }
 
-ul li a {
-	color: #1e1075;
+.HomeListContainer a {
+	color: #190F80;
 	font-weight: bold;
 }
 
@@ -17,9 +20,6 @@ h2, p {
   margin: 10px;
 }
 
-.listB {
-	text-align: left;
-}
 
 /*ul {
   list-style-type: none;
@@ -69,6 +69,28 @@ ul li a:hover {
    background-color: #04AA6D;
    color: white;
 }
+
+.HomeListContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: left;
+  padding: 3px;
+  font-size: 18px;
+}
+
+.HomeListContainer div {
+  padding: 5px;
+  margin: 5px;
+}
+
+.UploadHighlightsLink a {
+  color: #190F80;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
 
 
 
